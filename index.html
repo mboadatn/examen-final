@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Simulador de Tareas</title>
+    
+</head>
+<body>
+
+    <header id="header-principal">
+        <h1>TaskFlow</h1>
+        <p>Organiza tus tareas diarias de forma simple</p>
+    </header>
+
+    <main>
+
+        <section id="agregar-tarea">
+            <h2>Agregar Tarea</h2>
+            <form id="form-tarea">
+                <input type="text" id="input-tarea" placeholder="Escribe una nueva tarea..." autocomplete="off">
+                <button type="submit" id="btn-agregar">Agregar</button>
+            </form>
+        </section>
+
+        <section id="lista-tareas-seccion">
+            <div class="encabezado-lista">
+                <h2>Mis Tareas</h2>
+                <p id="contador-pendientes">0 tareas pendientes</p>
+            </div>
+
+            <ul id="lista-tareas" class="lista-tareas">
+                
+            </ul>
+
+            <p id="lista-vacia" class="lista-vacia">No tienes tareas todavía. ¡Agrega una!</p>
+
+            <button id="btn-eliminar-completadas" class="btn-eliminar-completadas">Eliminar completadas</button>
+        </section>
+
+    </main>
+
+    <footer id="footer-principal">
+        <p>&copy; 2026 TaskFlow.</p>
+    </footer>
+
+    
+</body>
+</html>
